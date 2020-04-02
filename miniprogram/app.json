@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "plugins": {
+    "pickerMod": {
+      "version": "dev",
+      "provider": "wx591b7ec09cf7740f"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

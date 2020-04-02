@@ -1,0 +1,31 @@
+<view class="index">
+  <view class="box">
+    <text>地区选择器</text>
+    <view class="picker">
+      <pickerMod
+        mode="region"
+        level="{{4}}"
+        region="{{['广东省', '深圳市', '南山区', '粤海街道']}}"
+        placeholder="当前选择："
+        placeholderStyle="fontSize: 30rpx; line-height: 80rpx; color: #333333; font-weight: bold;"
+        bindPickerValue="getRegionPickerValue">
+      </pickerMod>
+    </view>
+    <text>{{regionValue}}</text>
+  </view>
+
+  <view class="box">
+    <text>时间选择器</text>
+    <view class="picker">
+      <pickerMod
+        mode="time"
+        level="{{6}}"
+        time="{{'2020-03-31 12:21:22'}}"
+        placeholder="当前选择："
+        placeholderStyle="fontSize: 30rpx; line-height: 80rpx; color: #333333; font-weight: bold;"
+        bindPickerValue="getTimePickerValue">
+      </pickerMod>
+    </view>
+    <text>{{timeValue}}</text>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<!--component/picker-mod.wxml-->
+<picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{mode === 'region' ? regionIndex : mode === 'time' ? timeIndex : []}}" range="{{mode === 'region' ? regionList : mode === 'time' ? timeList : []}}">
+  <view class="picker-area">
+    <text class="{{placeholderClass}}" style="{{placeholderStyle}}">{{placeholder}}</text>
+  </view>
+</picker>

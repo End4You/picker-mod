@@ -1,0 +1,5 @@
+/* component/picker-mod.wxss */
+.picker-area {
+  width: 100%;
+  height: 100vh;
+}

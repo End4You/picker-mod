@@ -1,0 +1,15 @@
+/* pages/index/index.wxss */
+.index {
+  min-height: 100vh;
+  padding-top: 30rpx;
+  background: #F5F5F5;
+}
+
+.index .box {
+  margin-bottom: 50rpx;
+}
+
+.index .box .picker {
+  height: 80rpx;
+  background: #FFFFFF;
+}

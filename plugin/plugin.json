@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "picker": "components/picker-mod"
+  },
+  "main": "index.js"
+}

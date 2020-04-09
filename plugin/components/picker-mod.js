@@ -105,7 +105,7 @@ Component({
             break
           case 3 :
             this.setData({'regionIndex[3]': index})
-            this.getStreetData()
+            // this.getStreetData()
             break
         }
       } else if (this.data.mode === 'time') {

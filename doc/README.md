@@ -105,7 +105,8 @@ placeholder-style|string| |指定 placeholder 的样式
 placeholder-class|string| |指定 placeholder 的样式类
 bindPickerValue|eventhandle| |value 改变时触发事件，event.detail = {value}
 
-mod有效值：*
+mod有效值：
+
 值|说明
 :--|:--
 region|地区选择器
